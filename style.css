@@ -1,0 +1,115 @@
+body {background-color: #eee;   
+	padding: 0;
+	margin: 0;
+}
+.frm1 {
+	float: left;
+    border: solid 1px;
+    width: 25%;
+    margin: 100px 0 0 200px;
+    background: #ccc;
+    padding: 50px;
+    padding-bottom: 84px;
+}
+.frm2 {
+	float: right;
+    border: solid 1px;
+    width: 25%;
+    margin: 100px 200px 0 0;
+    background: #ccc;
+    padding: 50px;
+}
+.log {
+	padding: 5px;
+	text-align:center;
+}
+.reg {
+	padding: 5px;
+	text-align:center;
+}
+.textInput {
+	margin-bottom: 5%;
+    height: 25px;
+    border: 1px solid #5E6E66;
+    font-size: 16px;
+    padding: 1px;
+    width: 66%;
+}
+.divlog {
+	margin-top: 50px;
+}
+#error_msg{
+	width:50%;
+	margin: 5px auto;
+	height: 30px;
+	border: 1px solid #FF0000;
+	background: #FFB9BB;
+	color: #FF0000;
+	text-align: center;
+	padding-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4EA248 !important;
+}
+.alert {
+    margin:0!important;
+}
+.activea{
+    background-color: #4EA248 !important;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+p {
+    margin:0!important;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #338eb7;
+    color: white;
+}
+button {
+    "font-size:24px;width:100%;color:white;background:#4EA248 !important;margin-bottom: 10%;"
+}
