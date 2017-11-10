@@ -1,7 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 4.6.5.2
 -- https://www.phpmyadmin.net/
---
+-- salamalecum
 -- Host: 127.0.0.1
 -- Generation Time: May 31, 2017 at 08:45 AM
 -- Server version: 10.1.21-MariaDB
